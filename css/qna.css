@@ -1,0 +1,39 @@
+#qna{
+    display: none;
+}
+
+.qBox{
+    background-color: azure;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 24px;
+    width: 80%;
+}
+
+.answerList{
+    background-color: azure;
+    border-radius: 20px;
+    display: block;
+    width: 80%;
+    border: 0px;
+    font-size: 20px;
+}
+
+.answerList:hover, .answerList:focus{
+    background-color: lightcyan;
+    color: black;
+}
+
+.status{
+    height: 20px;
+    width: 80%;
+    background-color: azure;
+    border-radius: 20px;
+}
+
+.statusBar{
+    height: 100%;
+    border-radius: 20px;
+    background: rgb(0,152,255);
+    background: linear-gradient(180deg, rgb(30, 165, 255) 0%, rgb(45, 133, 255) 38%, rgb(44, 100, 255) 100%);
+}
