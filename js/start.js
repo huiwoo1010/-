@@ -18,8 +18,8 @@ button.addEventListener('click', function() {
     langmode=1; this.textContent = '한국어';
     startnarrate.textContent = 'Press start button to begin!';
     resultnarrate.textContent = 'Your Result';
-    biobutton.textContent = 'bio test';
-    chembutton.textContent = 'chem test';
+    biobutton.textContent = 'Bio test';
+    chembutton.textContent = 'Chem test';
     minebutton.textContent = 'share with friends';
     } //langmode=0 일때 한국어
   else if (langmode==1){ 
